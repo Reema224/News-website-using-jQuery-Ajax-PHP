@@ -13,7 +13,7 @@
 </ul>
 <h5>References</h5>
 <ul>
-<li><a href="www.W3schools.com">W3schools</a></li>
+<li><a href="https://www.w3schools.com/jquery/">W3schools</a></li>
 <li><a href="https://www.cbsnews.com/latest/world/6/">News website</a></li>
 
 </ul>
