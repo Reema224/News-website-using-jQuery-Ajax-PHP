@@ -11,7 +11,7 @@ body{
     color: white;
     text-align: center;
 }
-.container{
+#container{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -22,6 +22,17 @@ body{
     height: fit-content;
     gap: 1%;
 }
+/* .newsItem{
+    display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 2rem;
+        border: 2px solid gray;
+        height: fit-content;
+        gap: 1%;
+} */
 img{
     width:200px;
     height: 140px;

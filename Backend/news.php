@@ -9,4 +9,5 @@ while ($news= $array->fetch_assoc()) {
     $response[]=$news;
 }
 echo json_encode($response);
+
 ?>
