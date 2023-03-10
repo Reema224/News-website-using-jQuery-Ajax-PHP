@@ -44,14 +44,16 @@ $(document).ready(function() {
 $.ajax({
 url: "http://localhost/News-website-using-jQuery-Ajax-PHP/Backend/news.php",
 type: "GET",
+async: true,
 dataType: "json",
 success: function (news) {
 for (var i = 0; i < news.length; i++) {
+    console.log(news)
      var newsImg = $('<img>').attr('src', news[i].image_url);
      var newsTitle = $("<h2>").text(news[i].title);
      var newsDescription = $("<p>").text(news[i].description);
      var newsDate = $("<p>").text(news[i].date);
-    //  newsItem.append(newsImg,newsTitle, newsDescription,newsDate);
+
 $("#container").append(newsImg,newsTitle,newsDescription,newsDate);
 }
 },
