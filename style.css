@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(235, 235, 235);
+}
+.navbar{
+    padding: 0.2rem;
+    background-color: rgb(8, 8, 52);
+}
+.nav-content{
+    color: white;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 2rem;
+    border: 2px solid gray;
+    height: fit-content;
+    gap: 1%;
+}
+img{
+    width:200px;
+    height: 140px;
+    margin-left: 1rem;
+}
